@@ -9,7 +9,7 @@ public class App {
     }
 
 
-
+    //Add the jar file
 
     public static void SQLDatabaseConnection() {
         String a = "\"";
@@ -22,6 +22,7 @@ public class App {
             System.out.println("Its working");
         }
         // Handle any errors that may have occurred.
+        //Add everything 
         catch (SQLException e) {
             e.printStackTrace();
         }
