@@ -13,6 +13,7 @@ public class App {
 
     public static void SQLDatabaseConnection() {
         String a = "\"";
+        
         String connectionUrl = "jdbc:sqlserver://viper17"+a+"sql17";
 
 
