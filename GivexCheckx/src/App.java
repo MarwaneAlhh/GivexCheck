@@ -1,5 +1,10 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class App {
     public static void main(String[] args) throws Exception {
+        SQLDatabaseConnection();
        
     }
 
@@ -8,7 +13,6 @@ public class App {
 
     public static void SQLDatabaseConnection() {
         String a = "\"";
-        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
         String connectionUrl = "jdbc:sqlserver://viper17"+a+"sql17";
 
 
